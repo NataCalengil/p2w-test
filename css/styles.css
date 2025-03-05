@@ -36,7 +36,7 @@ body {
 }
 
 .page {
-  background: url("img/image_bg.webp") no-repeat top center/cover;
+  background: url("../img/image_bg.webp") no-repeat top center/cover;
   height: 100vh;
   padding: 20px;
 }
@@ -103,7 +103,7 @@ body {
   display: inline-block;
   width: 14px;
   height: 14px;
-  background: url("http://localhost:8888/p2w/img/svg/icon_timer.svg") no-repeat center/contain;
+  background: url("../img/svg/icon_timer.svg") no-repeat center/contain;
 }
 
 .popup__icon {
@@ -137,10 +137,10 @@ body {
   background-repeat: no-repeat;
 }
 .popup__title::before {
-  background-image: url("http://localhost:8888/p2w/img/svg/left_title_icon.svg");
+  background-image: url("../img/svg/left_title_icon.svg");
 }
 .popup__title::after {
-  background-image: url("http://localhost:8888/p2w/img/svg/right_title_icon.svg");
+  background-image: url("../img/svg/right_title_icon.svg");
 }
 
 /* Popup Bottom */

@@ -37,7 +37,7 @@
   }
   
   .page {
-    background: url('img/image_bg.webp') no-repeat top center/cover;
+    background: url('../img/image_bg.webp') no-repeat top center/cover;
     height: 100vh;
     padding: 20px;
   }
@@ -108,7 +108,7 @@
       display: inline-block;
       width: 14px;
       height: 14px;
-      background: url('http://localhost:8888/p2w/img/svg/icon_timer.svg') no-repeat center/contain;
+      background: url('../img/svg/icon_timer.svg') no-repeat center/contain;
     }
   }
   
@@ -146,10 +146,10 @@
     }
   
     &::before {
-      background-image: url('http://localhost:8888/p2w/img/svg/left_title_icon.svg');
+      background-image: url('../img/svg/left_title_icon.svg');
     }
     &::after {
-      background-image: url('http://localhost:8888/p2w/img/svg/right_title_icon.svg');
+      background-image: url('../img/svg/right_title_icon.svg');
     }
   }
   
