@@ -1,0 +1,16 @@
+{
+  "name": "p2w-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "build-css": "sass scss/style.scss css/style.css",
+  "watch-css": "sass --watch scss:css"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.85.1"
+  }
+}
